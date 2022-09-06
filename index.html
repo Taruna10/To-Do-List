@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="to_do_css.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+<body>
+    <nav id="nav">
+        <div id="nav_div">
+            <p>Tasks <span>List</span></p>
+        </div>
+    </nav>
+
+    <div id="list_body">
+        <div id="add_new_item">
+            <div id="d2">
+                <p>Add New Task</p>
+            </div>
+            <div id="d1">
+               <p id="plus">+</p>
+            </div>
+        </div>
+
+        <div id="container">
+            <p id="noTasks">No Tasks Yet</p>
+        </div>
+
+    </div>
+        <div id="task_input_container" class="input_container">
+            <div id="task_container">
+                <div id="add_task_title">
+                    <p>Add New Task</p>
+                    <span id="closeTaskInput" class="closeInput">
+                        <i class="fa-solid fa-xmark"></i>
+                    </span>
+                </div>
+                <div id="add_task_body">
+                    <input type="text" id="task">
+                </div>
+                <div id="add_task_footer">
+                    <div id="add_task_button">
+                        <p>+Add Task</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="item_input_container" class="input_container">
+            <div id="item_container">
+                <div id="add_item_title">
+                    <p>Add New Item</p>
+                    <span id="closeItemInput" class="closeInput">
+                        <i class="fa-solid fa-xmark"></i>
+                    </span>
+                </div>
+                <div id="add_item_body">
+                    <input type="text" id="item">
+                </div>
+                <div id="add_item_footer">
+                    <div id="add_item_button">
+                        <p>+Add Item</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+    <script src="to_do_js.js"></script>
+    
+</body>
+</html>
